@@ -6,8 +6,9 @@ import Skills from "@/components/portfolio/Skills";
 import Projects from "@/components/portfolio/Projects";
 import Contact from "@/components/portfolio/Contact";
 import Footer from "@/components/portfolio/Footer";
+import TechBackground from "@/components/ui/tech-background";
 
-const NAME = "Your Name"; // Quick edit variable for your name
+const NAME = "Aathi Logesh J"; // Quick edit variable for your name
 
 const Index = () => {
   const [active, setActive] = useState<string>("home");
@@ -46,6 +47,7 @@ const Index = () => {
 
   return (
     <div>
+      <TechBackground />
       <Navbar active={active} name={NAME} />
       <main className="pt-16">
         <Hero name={NAME} />

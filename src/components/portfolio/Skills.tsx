@@ -37,14 +37,14 @@ function SkillBar({ name, level }: SkillBarProps) {
 export default function Skills() {
   const technical = [
     { name: "HTML", level: 95 },
-    { name: "CSS / Tailwind", level: 90 },
-    { name: "JavaScript", level: 92 },
-    { name: "TypeScript", level: 88 },
-    { name: "React", level: 90 },
+    { name: "CSS", level: 90 },
+    { name: "Java Programming", level: 85 },
+    { name: "JavaScript", level: 70 },
     { name: "Node.js", level: 70 },
+    { name: "DSA", level: 60 },
   ];
 
-  const tools = ["Git", "GitHub", "VS Code", "Vite", "Figma", "Supabase"];
+  const tools = ["GitHub", "Git", "VS Code", "IntelliJ IDEA", "Eclipse", "Canva"];
 
   return (
     <section id="skills" aria-label="Skills" className="py-20">
@@ -54,12 +54,12 @@ export default function Skills() {
           <p className="text-muted-foreground mt-2">Technologies and tools I use</p>
         </header>
         <div className="grid md:grid-cols-2 gap-10">
-          <div className="space-y-4 animate-fade-in">
+          <div className="space-y-4 animate-fade-in bg-background/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
             {technical.map((s) => (
               <SkillBar key={s.name} name={s.name} level={s.level} />
             ))}
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 content-start animate-fade-in">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 content-start animate-fade-in bg-background/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-2xl">
             {tools.map((t) => (
               <div
                 key={t}

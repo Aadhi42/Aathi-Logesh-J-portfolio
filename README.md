@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+🌐 Portfolio Website
 
-## Project info
 
-**URL**: https://lovable.dev/projects/0d733fa6-1996-4bf3-9f1f-a7d5b61d3a2e
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0d733fa6-1996-4bf3-9f1f-a7d5b61d3a2e) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
 
-**Use your preferred IDE**
+📌 Project Overview
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This is my personal portfolio website created to showcase my skills, projects, and professional journey. The design focuses on a clean, modern layout with smooth interactions and responsive styling for all devices.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔗 Live Demo: View Portfolio
 
-Follow these steps:
+🛠 Technologies Used
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Vite – Fast build tool for modern web apps
+
+TypeScript – Type-safe JavaScript for better code quality
+
+React – UI library for building interactive components
+
+Tailwind CSS – Utility-first CSS framework for styling
+
+shadcn-ui – Prebuilt accessible UI components
+
+Firebase Hosting – Fast and secure hosting platform
+
+🚀 Local Development Setup
+
+To run this project locally, make sure you have Node.js and npm installed. You can install Node.js using nvm for easy version management.
+
+# 1️⃣ Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2️⃣ Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3️⃣ Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4️⃣ Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This will start a local server with hot-reloading, so changes will be visible instantly in the browser.
 
-**Use GitHub Codespaces**
+📂 How to Edit the Code
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Local Development – Open the project in VS Code (or any IDE), make changes, and push updates to GitHub.
 
-## What technologies are used for this project?
+GitHub Editor – Edit files directly on GitHub by clicking the ✏️ pencil icon.
 
-This project is built with:
+GitHub Codespaces – Launch a cloud-based development environment directly from GitHub.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🌍 Deployment with Firebase Hosting
 
-## How can I deploy this project?
+This project is hosted on Firebase.
 
-Simply open [Lovable](https://lovable.dev/projects/0d733fa6-1996-4bf3-9f1f-a7d5b61d3a2e) and click on Share -> Publish.
+Steps to deploy:
+# Install Firebase CLI
+npm install -g firebase-tools
 
-## Can I connect a custom domain to my Lovable project?
+# Login to Firebase
+firebase login
 
-Yes, you can!
+# Initialize Firebase in your project
+firebase init
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Build the project for production
+npm run build
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Deploy to Firebase Hosting
+firebase deploy
+
+
+Once deployed, your website will be accessible via your Firebase Hosting URL or a custom domain.
+
+🔗 Custom Domain Setup
+
+You can connect your own domain via the Firebase Console:
+
+Go to Hosting > Add Custom Domain
+
+Follow the verification steps provided by Firebase
+
+📜 License
+
+This project is licensed under the MIT License – you are free to use, modify, and distribute it.

@@ -14,7 +14,7 @@ interface NavbarProps {
   name?: string;
 }
 
-export default function Navbar({ active = "home", name = "Your Name" }: NavbarProps) {
+export default function Navbar({ active = "home", name = "Aathi Logesh J" }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
